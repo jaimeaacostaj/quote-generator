@@ -20,7 +20,7 @@ function removeLoadingSpinner(){
 
 async function getQuote(){
     showLoadingSpinner();
-    const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+    const apiUrl = 'https://calixe.calixe.com/includes/test/index.php';
     try {
         const response = await fetch(apiUrl);
         const data = await response.json();
